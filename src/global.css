@@ -1,0 +1,75 @@
+.m-a {
+  margin: auto;
+}
+
+.t-c {
+  text-align: center;
+}
+
+.f-g {
+  display: flex;
+  gap: 10px;
+}
+
+.f-sb {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 10px;
+  padding: 10px;
+}
+
+.root-container {
+  font-family: system-ui;
+  font-size: 20px;
+  display: flex;
+  height: 100vh;
+  width: 100vw;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.text-input {
+  font-size: 20px;
+  margin-right: 10px;
+  text-align: center;
+  padding: 9px;
+}
+
+button {
+  color: #ffffff;
+  background: #08c988;
+  box-shadow: 0 1px 2px 0 rgb(0 0 0 / 5%);
+  font-size: 15px;
+  border-radius: 4px;
+  text-align: center;
+  border: 0;
+  padding: 1em 1.2em;
+  white-space: nowrap;
+  outline: 0;
+  cursor: pointer;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+  width: auto;
+}
+
+button:hover {
+  background: #08bd81;
+  box-shadow: 0 2px 15px 0 rgb(0 0 0 / 5%), 0 1px 2px 0 rgb(0 0 0 / 5%);
+}
+
+button:disabled {
+  cursor: not-allowed;
+  filter: grayscale(0.9);
+}
+
+textarea {
+  font-family: "system-ui";
+  font-size: 20;
+}
